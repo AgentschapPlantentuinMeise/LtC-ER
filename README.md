@@ -9,8 +9,10 @@ Lissa Breugelmans, Meise Botanic Garden, Belgium, https://orcid.org/0000-0002-84
 Maarten Trekels, Meise Botanic Garden, Belgium, https://orcid.org/0000-0001-8282-8765
 
 ## Introduction and background
-Natural science collections are a primary resource for mapping out the world’s biodiversity through the long-term preservation of collected specimens (Buschbom et al. 2022). 
+Natural science collections are a primary resource for mapping out the world’s biodiversity through the long-term preservation of collected specimens (Buschbom et al. 2022). Although significant efforts are ongoing in digitizing this important contribution to our knowledge, many collections are still not or far from being digital available to science.  In order to ensure that valuable collections are findable to the community there is a clear need for a standardized approach in describing the content of collections (Kirk et al. 2023). 
 
+![DiSSCo Flanders map](./images/df_map.png)
+*Figure 1: Overview of the DiSSCo Flanders consortium*
 
 ## Development of the Latimer Core standard
 
@@ -18,13 +20,13 @@ Natural science collections are a primary resource for mapping out the world’s
 The DiSSCo Flanders project aims at obtaining high-level information on the Natural Science Collections held in the collection-holding institutions in Flanders that participate in the DiSSCo-Flanders project. This information consists of quantitative data on the overall size of the collections, as well as size by taxonomic groups, preservation types, stratigraphic age, geographic region, and level of digitization (Van Baelen et al. 2022). Based on previous work done in the SYNTHESYS+ project (Smith et al. 2019), a survey was designed to retrieve relevant information on the collections.  
 Although the design of the survey was loosely based on the developments happening at the TDWG Collections Descriptions Interest Group, the survey remained static over time while the development of the Latimer Core standard was going through major changes. In order to ensure the interoperability of the collected data a mapping exercise was performed of the data with the current terms and concepts of the standard.
 
-The data was extracted from the original survey spreadsheets and pivoted into a vertical format using Microsoft Power Query. A data model for a MySQL database was developed (Figure 1), taking into account the hierarchical nature of the data and using LatimerCore terms for table names and attributes. The database was subsequently populated with the survey data and used as input for a [Microsoft PowerBi dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTgyYmEyNWQtOGE2My00NWVkLTkyN2YtYzBjZDI4M2I2MDI1IiwidCI6ImQ4NjA5MTVlLWI4YmUtNGY3Yi04NmJlLWUxNzNjMTgyZWFhZiIsImMiOjl9), which features a graphical overview of the content and digitization level of the Flemish collections (Figure 2).
+The data was extracted from the original survey spreadsheets and pivoted into a vertical format using Microsoft Power Query. A data model for a MySQL database was developed (Figure 2), taking into account the hierarchical nature of the data and using LatimerCore terms for table names and attributes. The database was subsequently populated with the survey data and used as input for a [Microsoft PowerBi dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTgyYmEyNWQtOGE2My00NWVkLTkyN2YtYzBjZDI4M2I2MDI1IiwidCI6ImQ4NjA5MTVlLWI4YmUtNGY3Yi04NmJlLWUxNzNjMTgyZWFhZiIsImMiOjl9), which features a graphical overview of the content and digitization level of the Flemish collections (Figure 3).
 
 ![Database Model](./images/database_model.png)
-*Figure 1: Visualisation of the DiSSCo Flanders data model*
+*Figure 2: Visualisation of the DiSSCo Flanders data model*
 
 ![DiSSCo Flanders dashboard](./images/dashboard.png)
-*Figure 2: The DiSSCo Flanders PowerBI dashboard*
+*Figure 3: The DiSSCo Flanders PowerBI dashboard*
 
 ## Conclusions
 

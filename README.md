@@ -1,3 +1,5 @@
+> **_NOTE:_**  This is a preprint version.
+
 # Implementation Experience Report for the developing Latimer Core standard: the DiSSCo Flanders use-case
 
 Lissa Breugelmans, Meise Botanic Garden, Belgium, https://orcid.org/0000-0002-8472-3577
@@ -14,11 +16,12 @@ Natural science collections are a primary resource for mapping out the world’s
 The DiSSCo Flanders project aims at obtaining high-level information on the Natural Science Collections held in the collection-holding institutions in Flanders that participate in the DiSSCo-Flanders project. This information consists of quantitative data on the overall size of the collections, as well as size by taxonomic groups, preservation types, stratigraphic age, geographic region, and level of digitization (Van Baelen et al. 2022). Based on previous work done in the SYNTHESYS+ project (Smith et al. 2019), a survey was designed to retrieve relevant information on the collections.  
 Although the design of the survey was loosely based on the developments happening at the TDWG Collections Descriptions Interest Group, the survey remained static over time while the development of the Latimer Core standard was going through major changes. In order to ensure the interoperability of the collected data a mapping exercise was performed of the data with the current terms and concepts of the standard.
 
-The data was extracted from the original survey spreadsheets and pivoted into a vertical format using Microsoft Power Query. A data model for a MySQL database was developed (figure), taking into account the hierarchical nature of the data and using LatimerCore terms for table names and attributes. The database was subsequently populated with the survey data and used as input for a Microsoft PowerBi dashboard, which features a graphical overview of the content and digitization level of the Flemish collections.
+The data was extracted from the original survey spreadsheets and pivoted into a vertical format using Microsoft Power Query. A data model for a MySQL database was developed (figure), taking into account the hierarchical nature of the data and using LatimerCore terms for table names and attributes. The database was subsequently populated with the survey data and used as input for a [Microsoft PowerBi dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTgyYmEyNWQtOGE2My00NWVkLTkyN2YtYzBjZDI4M2I2MDI1IiwidCI6ImQ4NjA5MTVlLWI4YmUtNGY3Yi04NmJlLWUxNzNjMTgyZWFhZiIsImMiOjl9), which features a graphical overview of the content and digitization level of the Flemish collections (figure xx).
 
 ![Database Model](./images/database_model.pdf)
 
-[Link to PowerBI dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTgyYmEyNWQtOGE2My00NWVkLTkyN2YtYzBjZDI4M2I2MDI1IiwidCI6ImQ4NjA5MTVlLWI4YmUtNGY3Yi04NmJlLWUxNzNjMTgyZWFhZiIsImMiOjl9)
+![DiSSCo Flanders dashboard](./images/dashboard.png)
+
 
 ## Conclusions
 

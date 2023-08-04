@@ -20,7 +20,7 @@ The data was extracted from the original survey spreadsheets and pivoted into a 
 
 ![Database Model](./images/database_model.pdf)
 
-![DiSSCo Flanders dashboard](./images/dashboard.png)
+![DiSSCo Flanders dashboard](./images/dashboard.png "Figure 2: The DiSSCo Flanders PowerBI dashboard")
 
 
 ## Conclusions

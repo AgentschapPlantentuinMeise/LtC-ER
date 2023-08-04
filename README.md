@@ -1,6 +1,7 @@
 # Implementation Experience Report for the developing Latimer Core standard: the DiSSCo Flanders use-case
 
 Lissa Breugelmans, Meise Botanic Garden, Belgium, https://orcid.org/0000-0002-8472-3577
+
 Maarten Trekels, Meise Botanic Garden, Belgium, https://orcid.org/0000-0001-8282-8765
 
 ## Introduction and background
@@ -14,7 +15,7 @@ The DiSSCo Flanders project aims at obtaining high-level information on the Natu
 Although the design of the survey was loosely based on the developments happening at the TDWG Collections Descriptions Interest Group, the survey remained static over time while the development of the Latimer Core standard was going through major changes. In order to ensure the interoperability of the collected data a mapping exercise was performed of the data with the current terms and concepts of the standard.
 
 
-![Database Model](../images/database_model.pdf)
+![Database Model](./images/database_model.pdf)
 
 ## Conclusions
 

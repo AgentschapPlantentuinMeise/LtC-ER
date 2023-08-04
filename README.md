@@ -14,6 +14,8 @@ The DiSSCo Flanders project aims at obtaining high-level information on the Natu
 Although the design of the survey was loosely based on the developments happening at the TDWG Collections Descriptions Interest Group, the survey remained static over time while the development of the Latimer Core standard was going through major changes. In order to ensure the interoperability of the collected data a mapping exercise was performed of the data with the current terms and concepts of the standard.
 
 
+![Database Model](../images/database_model.pdf)
+
 ## Conclusions
 
 ## Acknowledgements

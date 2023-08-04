@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/674579084.svg)](https://zenodo.org/badge/latestdoi/674579084)
+
 > **_NOTE:_**  This is a preprint version.
 
 # Implementation Experience Report for the developing Latimer Core standard: the DiSSCo Flanders use-case
